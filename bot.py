@@ -142,8 +142,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ================== Main ==================
 if __name__ == "__main__":
 
-    import os
-    TOKEN = os.getenv("8352871060:AAGRKRdg1DYMx02jLzO4bJVDWVbfzWa5rTk")
+    TOKEN ="8352871060:AAGRKRdg1DYMx02jLzO4bJVDWVbfzWa5rTk
 
     app = ApplicationBuilder().token(TOKEN).build()
 
